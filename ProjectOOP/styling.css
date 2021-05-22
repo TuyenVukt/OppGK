@@ -1,0 +1,19 @@
+
+node.important {
+        fill-color: green;
+        color: green;
+        size: 90px;
+    text-size: 20px;
+    shape:circle;
+    }
+node {
+    shape:circle;
+    fill-color: yellow;
+    size: 90px;
+    text-size: 20px;
+}
+
+
+    
+edge { shape: cubic-curve;  size: 3px; }
+
