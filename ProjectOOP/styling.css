@@ -1,19 +1,33 @@
 
-node.important {
-        fill-color: green;
-        color: green;
-        size: 90px;
-    text-size: 20px;
-    shape:circle;
-    }
-node {
-    shape:circle;
-    fill-color: yellow;
-    size: 90px;
-    text-size: 20px;
+/* node {
+  text-size: 20;
+  text-alignment: center;
+  stroke-mode: plain;
+  size-mode: fit;
+  size: 40;
+  fill-color: aquamarine, #254;
+   fill-mode: gradient-diagonal1;
+ }  */
+
+ node { size: 50px; text-size: 20; fill-color: aquamarine, #254; fill-mode: gradient-diagonal1; }
+
+node.marked {
+  fill-color: red;
+}
+node.dekiru {
+  fill-color: green;
 }
 
+edge.marked {
+  fill-color: red;
+  size: 10;
+}
 
-    
-edge { shape: cubic-curve;  size: 3px; }
+edge.dekiru {
+  fill-color: green;
+}
+
+edge{
+  size: 3px;
+}
 
